@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="description" content="Uadacity Front-End Web Developer Nanodegree, Project 1"/>
+  	<meta name="author" content="Andrew Reid">
+    <title>Andrew Reid</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+		<div class="container"><!-- Start Header -->
+      <div class="row">
+        <div class="col-xs-4 col-sm-6 col-md-4">
+          <picture>
+            <source media="(max-width: 767px)"
+              srcset="images/andrew-reid_xs.jpg">
+            <img class="logo img-responsive img-circle" src="images/andrew-reid.jpg" alt="Portrait of Andrew Reid">
+          </picture>
+        </div>
+        <div class="col-xs-8 col-sm-6 col-md-8 text-right">
+          <h1>Andrew Reid</h1>
+          <h3>Front-End Grasshopper</h3>
+        </div>
+      </div>
+      <hr class="divider">
+    </div><!-- End Header -->
+
+    <div class="container"><!-- Start Carousel -->
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <picture>
+              <source media="(max-width: 600px)"
+                srcset="images/globe_600.jpg">
+              <source media="(min-width: 601px) and (max-width: 1200px)"
+                srcset="images/globe_900_1x.jpg">
+              <source media="(min-width: 1201px)"
+                srcset="images/globe_1600_2x.jpg">
+              <img src="images/globe_1600_2x.jpg" alt="A picture of the globe, but more futuristic.">
+            </picture>
+            <div class="carousel-caption">
+              <p>Doing 'internet' at the speed of tomorrow.</p>
+            </div>
+          </div>
+          <div class="item">
+            <picture>
+              <source media="(max-width: 600px)"
+                srcset="images/keyboard_600.jpg">
+              <source media="(min-width: 601px) and (max-width: 1200px)"
+                srcset="images/keyboard_900_1x.jpg">
+              <source media="(min-width: 1201px)"
+                srcset="images/keyboard_1600_2x.jpg">
+              <img src="images/keyboard_1600_2x.jpg" alt="A close-up of the enter key on a keyboard.">
+            </picture>
+            <div class="carousel-caption">
+              <p>Typing on keyboards like I'm Mavis Beacon.</p>
+            </div>
+          </div>
+            <div class="item">
+              <picture>
+                <source media="(max-width: 600px)"
+                  srcset="images/screen_600.jpg">
+                <source media="(min-width: 601px) and (max-width: 1200px)"
+                  srcset="images/screen_900_1x.jpg">
+                <source media="(min-width: 1201px)"
+                  srcset="images/screen_1600_2x.jpg">
+                <img src="images/screen_1600_2x.jpg" alt="Blurry shot of an old computer monitor.">
+              </picture>
+            <div class="carousel-caption">
+              <p>Keeping up to date with the latest technologies.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div><!-- End Carousel -->
+
+  <div class="container"><!-- Start Featured Work -->
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="feature">Accomplishments</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+        <picture>
+          <img src="images/beowulf_550_lg.jpg" alt="Old, worn books.">
+        </picture>
+        <h2>Beowulf</h2>
+        <p>I read it. All of it. In Old English.</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+        <picture>
+          <img src="images/german_550_lg.jpg" alt="German flag flapping in the breeze.">
+        </picture>
+        <h2>Terrible German</h2>
+        <p>I have learned to speak it. Terribly.</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+        <picture>
+          <img src="images/otter_550_lg.jpg" alt="An adorable seaotter swimming face up.">
+        </picture>
+        <h2>Something Else</h2>
+        <p>Note to self: Come up with third accomplishment.</p>
+      </div>
+    </div>
+
+  </div><!-- End Featured Work -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
